@@ -1,5 +1,101 @@
-<h1>Entre em Contato Comigo</h1>
-<p>Tel: 55+ (48) 99638-8464</p>
-<p>Email: caioaugustoro@gmail.com</p>
-<p>Address: Bairro Fazenda Santo Antonio / São José</p>
-<p></p>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Meu Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../index.html" style="color: inherit; text-decoration: none"
+            >Meu Portfólio</a
+          >
+        </div>
+        <ul class="nav-links">
+          <li><a href="../index.html#projetos">Projetos</a></li>
+          <li><a href="about.html">Sobre Mim</a></li>
+          <li>
+            <a href="contact.html" style="color: var(--accent-color)"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-container">
+      <section class="contact-section">
+        <h2>Vamos conversar?</h2>
+        <p>
+          Estou sempre aberto a novas oportunidades e desafios. Me mande uma
+          mensagem!
+        </p>
+
+        <form
+          action="https://formspree.io/f/xzdayegr"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Seu nome completo"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="seu@email.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Como posso ajudar?"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
+        </form>
+
+        <div class="social-links">
+          <p>Ou me encontre nas redes:</p>
+          <a
+            href="https://www.linkedin.com/in/caio-rocovski-oliveira/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a href="https://github.com/CaioRO777" target="_blank">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Caio Oliveira. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

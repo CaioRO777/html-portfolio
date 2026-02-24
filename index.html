@@ -1,55 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio Profissional</title>
 
-<main>
-    <h1>Portfólio</h1>
-
-    <hr />
-
-    <h2>Meus Projetos</h2>
-
-    <h3>
-        <a href="./public/movie-ranking.html">
-            Projeto Melhores Filmes
-        </a>
-    </h3>
-
-    <img 
-        src="./assets/images/Projeto de Sobre filmes.png" 
-        height="200"
-        alt="Projeto de ranking dos melhores filmes"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
     />
 
-    <hr />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Meu Portfólio</div>
+        <ul class="nav-links">
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="./public/about.html">Sobre Mim</a></li>
+          <li><a href="./public/contact.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h3>
-        <a href="./public/birthday-invite.html">
-            Projeto Convite de Aniversário
-        </a>
-    </h3>
+    <main>
+      <section class="hero">
+        <h1>Olá, eu sou o Caio Oliveira</h1>
+        <p>
+          Criando <span class="typing-text"></span
+          ><span class="cursor">&nbsp;</span>
+        </p>
+      </section>
 
-    <img 
-        src="./assets/images/Projeto de Aniversario.png" 
-        height="200"
-        alt="Projeto convite de aniversário"
-    />
+      <section id="projetos" class="projects-section">
+        <h2>Meus Projetos</h2>
 
-    <hr />
+        <div class="projects-grid">
+          <article class="project-card">
+            <img
+              src="./assets/images/Projeto de Sobre filmes.png"
+              alt="Projeto de ranking dos melhores filmes"
+            />
+            <div class="project-info">
+              <h3>Projeto Melhores Filmes</h3>
+              <p>
+                Uma aplicação web para elencar e organizar meus filmes
+                favoritos.
+              </p>
+              <a href="./public/movie-ranking.html" class="btn">Ver Projeto</a>
+            </div>
+          </article>
 
-    <p>
-        <a href="./public/about.html">Sobre Mim</a>
-    </p>
+          <article class="project-card">
+            <img
+              src="./assets/images/Projeto de Aniversario.png"
+              alt="Projeto convite de aniversário"
+            />
+            <div class="project-info">
+              <h3>Projeto Convite de Aniversário</h3>
+              <p>
+                Página interativa criada para um convite de aniversário digital.
+              </p>
+              <a href="./public/birthday-invite.html" class="btn"
+                >Ver Projeto</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-    <p>
-        <a href="./public/contact.html">Entre em Contato</a>
-    </p>
-</main>
-
-</body>
+    <footer>
+      <p>&copy; 2026 Caio Oliveira. Todos os direitos reservados.</p>
+    </footer>
+    <script src="assets/Js/script.js" /></script>
+  </body>
 </html>
