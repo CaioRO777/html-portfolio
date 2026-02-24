@@ -36,4 +36,4 @@ Se você quiser testar ou modificar este projeto na sua máquina, o processo é 
 
 1. Clone este repositório:
 ```bash
-git clone(https://github.com/seu-github/html-portfolio.git)
+git clone https://github.com/CaioRO777/html-portfolio.git
