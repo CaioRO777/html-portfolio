@@ -26,9 +26,7 @@ Este projeto começou como uma página HTML simples e evoluiu para uma aplicaç�
 
 ## 📸 Print da Tela
 
-*(Dica: Tire um print bem legal da primeira página do seu site, salve na pasta de imagens e atualize o caminho abaixo)*
-
-<igm src= "./assets/images/ProjetoRodando.png" / >
+ <img width="1318" height="622" alt="Screenshot 2026-02-24 145724" src="https://github.com/user-attachments/assets/ae36ae55-f4c4-48c1-8050-5df6086d2c23" />
 
 ---
 
